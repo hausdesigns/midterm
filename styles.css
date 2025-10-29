@@ -85,6 +85,13 @@ p {
     margin: 20px;
 }
 
+.card1-subtext {
+    text-align: center;
+    padding: 2px 16px;
+    font-size: 12px;
+    color: #000000;
+}
+
 .combo {
     display: flex;
     align-items: center;
@@ -124,9 +131,15 @@ p {
         justify-content: space-evenly;
         background-color: #bbaf9d;
         margin: 10px;
+        border-radius: 5px;
 }
 
-
+.happy-text {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
 
 .icons {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -137,6 +150,47 @@ p {
     border-radius: 5px;
 
 }
+
+.bottom-text {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 12px;
+    display: flex;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.button-text2 {
+    background-color: #725413;
+    border: none;
+    color: rgb(105, 56, 17);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 12px;
+    color: #000000;
+    background-color: #a9721a;
+    margin-top: 10px;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.footer-subtext {
+    font-size: 10px;
+    color: #9d9c98;
+    text-align: center;
+}
+
+
 
 @media screen and (max-width: 430px) {
   .gallery {
